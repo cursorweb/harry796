@@ -3,7 +3,7 @@
     "version": "1.0",
     "description": "A Khan Academy Extension to style the cs editor!",
     "browser_action": {
-      "default_icon": "logo.png",
+      "default_icon": "favicon.ico",
       "default_popup": "popup.html",
       "default_title": "KA editor"
     },
