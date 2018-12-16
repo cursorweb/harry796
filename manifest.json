@@ -1,0 +1,23 @@
+  {
+    "name": "Khan academy editor extension",
+    "version": "1.0",
+    "description": "A Khan Academy Extension to style the cs editor!",
+    "browser_action": {
+      "default_icon": "logo.png",
+      "default_popup": "popup.html",
+      "default_title": "KA editor"
+    },
+    "permissions": [
+        "tabs",
+        "cookies",
+        "http://*/*",
+        "https://*/*",
+        "*://*.khanacademy.org/*"
+    ],
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "js": ["content.js"],
+        "matches": ["*://*"]
+      }],
+    "manifest_version": 2
+  }
