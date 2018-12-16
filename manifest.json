@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "The Harry 796 virus. Click anywhere and you will see why it is so annoying!",
     "browser_action": {
-      "default_icon": "favicon.ico",
+      "default_icon": "logo.png",
       "default_popup": "popup.html",
       "default_title": "Harry 796 virus"
     },
